@@ -18,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -40,6 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "Spring Boot.ApiApplication.executor": "Run",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -116,7 +120,7 @@
       <workItem from="1765308281497" duration="332000" />
       <workItem from="1766324730757" duration="4813000" />
       <workItem from="1766360916913" duration="881000" />
-      <workItem from="1766452260837" duration="1480000" />
+      <workItem from="1766452260837" duration="1831000" />
     </task>
     <servers />
   </component>
