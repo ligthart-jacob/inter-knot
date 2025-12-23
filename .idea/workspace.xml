@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d216d7db-aa70-4c6e-ac9b-205e3a05586d" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="33wCgMAQKHMZ6wT1TSYidKhDnI5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "Spring Boot.ApiApplication.executor": "Run",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rosea.api.ApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d216d7db-aa70-4c6e-ac9b-205e3a05586d" name="Changes" comment="" />
+      <created>1760218858065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760218858065</updated>
+      <workItem from="1760218859530" duration="4701000" />
+      <workItem from="1760228696016" duration="395000" />
+      <workItem from="1760428989755" duration="3116000" />
+      <workItem from="1760441291648" duration="1388000" />
+      <workItem from="1760444914719" duration="595000" />
+      <workItem from="1760496635523" duration="2990000" />
+      <workItem from="1760559303434" duration="1047000" />
+      <workItem from="1760561898591" duration="3458000" />
+      <workItem from="1760600377503" duration="666000" />
+      <workItem from="1760648422647" duration="497000" />
+      <workItem from="1760695576350" duration="631000" />
+      <workItem from="1761051629110" duration="9000" />
+      <workItem from="1761052725435" duration="208000" />
+      <workItem from="1761637310235" duration="4274000" />
+      <workItem from="1761646215301" duration="3021000" />
+      <workItem from="1761651290119" duration="9473000" />
+      <workItem from="1761748463336" duration="2159000" />
+      <workItem from="1761813520010" duration="720000" />
+      <workItem from="1762167724109" duration="530000" />
+      <workItem from="1762772039912" duration="624000" />
+      <workItem from="1763451709001" duration="941000" />
+      <workItem from="1763466669242" duration="334000" />
+      <workItem from="1763594777658" duration="595000" />
+      <workItem from="1763621317900" duration="595000" />
+      <workItem from="1763626648794" duration="3000" />
+      <workItem from="1763944440096" duration="89000" />
+      <workItem from="1764008025392" duration="1049000" />
+      <workItem from="1764009151943" duration="786000" />
+      <workItem from="1764010758764" duration="5000" />
+      <workItem from="1764010773081" duration="2000" />
+      <workItem from="1764010798624" duration="742000" />
+      <workItem from="1764011999379" duration="1333000" />
+      <workItem from="1764160893507" duration="251000" />
+      <workItem from="1764187079605" duration="5000" />
+      <workItem from="1765308281497" duration="332000" />
+      <workItem from="1766324730757" duration="4813000" />
+      <workItem from="1766360916913" duration="881000" />
+      <workItem from="1766452260837" duration="1480000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/main/java/com/rosea/api/service/TaskService.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
