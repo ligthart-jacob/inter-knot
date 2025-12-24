@@ -12,14 +12,25 @@ public class Completion {
 
     @Temporal(TemporalType.TIMESTAMP)
     private Instant date;
-    private boolean completed;
+
+    @ManyToOne
+    @JoinColumn(name = "task_id")
+    private Task task;
+
+    public Task getTask() {
+        return task;
+    }
+
+    public void setTask(Task task) {
+        this.task = task;
+    }
 
     public Completion() {
     }
 
-    public Completion(Instant date, boolean completed) {
+    public Completion(Task task, Instant date) {
+        this.task = task;
         this.date = date;
-        this.completed = completed;
     }
 
     public Instant getDate() {
@@ -28,13 +39,5 @@ public class Completion {
 
     public void setDate(Instant date) {
         this.date = date;
-    }
-
-    public boolean isCompleted() {
-        return completed;
-    }
-
-    public void setCompleted(boolean completed) {
-        this.completed = completed;
     }
 }
