@@ -45,11 +45,11 @@ public class TaskService {
     public TaskDto complete(int id, Instant date) {
         // Get the task from the repository
         Task task = repository.findById(id).orElseThrow();
-        // Check if the task exists
-        System.out.println(task);
         // Complete the task
-
-        // Update the
+        task.complete(date);
+        // Update the task
+        repository.save(task);
+        // Return the task as a DTO
         return taskMapper.toDto(task);
     }
 }
