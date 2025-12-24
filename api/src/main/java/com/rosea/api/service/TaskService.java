@@ -24,7 +24,8 @@ public class TaskService {
 
     public TaskDto create(TaskDto dto) {
         Task task = taskMapper.toEntity(dto);
-        return taskMapper.toDto(repository.save(task));
+        Task savedTask = repository.save(task);
+        return taskMapper.toDto(savedTask);
     }
 
     public TaskDto findTaskById(int id) {
@@ -35,7 +36,10 @@ public class TaskService {
     }
 
     public List<TaskDto> list() {
-        return repository.findAll().stream().map(taskMapper::toDto).toList();
+        return repository.findAll().stream()
+                .filter(t -> t.getParent() == null)
+                .map(taskMapper::toDto)
+                .toList();
     }
 
     public TaskDto complete(int id, Instant date) {

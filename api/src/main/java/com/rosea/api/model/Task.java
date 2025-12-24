@@ -1,6 +1,8 @@
 package com.rosea.api.model;
 
 import jakarta.persistence.*;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
 
 import java.time.Instant;
 import java.util.List;
@@ -16,9 +18,10 @@ public abstract class Task {
     private String name;
 
     @ManyToOne
+    @OnDelete(action = OnDeleteAction.CASCADE)
     private Task parent;
 
-    @OneToMany(mappedBy = "parent", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "parent", cascade = { CascadeType.ALL })
     private List<Task> children;
 
     @Temporal(TemporalType.TIMESTAMP)
